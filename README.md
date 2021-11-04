@@ -4,12 +4,12 @@ O programa roda na linha de comando da seguint forma:
 ```c
 $ luhn.exe 1238
 ```
-Apenas um argumento, sendo este o número. O resultado ser�:
+Apenas um argumento, sendo este o número. O resultado será:
 ```c
 $ Luhn checksum mod 10 is: [8], the number is invalid.
 $ Next check digit is: [5].
 ```
-Onde a chacegem por resto 10 será 8, e o pr�ximo digito verificador será 5. Nota se que o número não é válido 
+Onde a chacegem por resto 10 será 8, e o próximo digito verificador será 5. Nota se que o número não é válido 
 pois ainda não tem o digito verificador.
 
 Ao se concatenar o número com 5 tem se:
